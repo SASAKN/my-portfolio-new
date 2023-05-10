@@ -22,116 +22,21 @@
 
 <body>
     <header>
-        <nav class="navi">
-            <span class="imagelogobox">
-                <img src="./profile.webp" alt="The Sasaken Portfolio" class="imagelogo">
-            </span>
-            <p class="textlogo">SASAKEN</p>
-            <ul class="list ulpc">
-                <li class="current lipc text-white"><a href="#">Home</a></li>
-                <li class="left-border start-bottom lipc"><a href="#works">Works</a></li>
-                <li class="left-border start-bottom lipc"><a href="#about">About</a></li>
-                <li class="left-border start-bottom lipc"><a href="javascript:note()">Note</a></li>
-                <li class="left-border start-bottom lipc"><a href="javascript:youtube()">Youtube</a></li>
-                <li class="left-border start-bottom lipc"><a href="javascript:blog()">Blog</a></li>
-                <li class="left-border start-bottom lipc"><a href="javascript:github()">Github</a></li>
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">Note</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Develop Team</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero bg-yellow">
-            <p class="herotitle">My Profile</p><br>
-            <div class="center">
-                <img src="profile.webp" alt="My Icon" class="profileicon">
-                <p class="profile">SASAKEN</p>
-                <div class="profiletext">
-                    <p class="profiletext" id="persontext">I like PC.</p>
-
-                </div>
-            </div>
+        <div class="hero">
+            
         </div>
-        <div class="hero bg-sky" id="about">
-            <p class="herotitle">About Me</p><br>
-            <div class="glass">
-                <p class="herotitle">I'm SASAKEN</p>
-                <p class="text">I'm a Web developer.</p>
-                <p class="jpn text-gray">私は、ササケンという、ただの中学生です。<br>趣味でPCをやっておりプログラミングが得意です。<br>
-                    専門の言語は、HTMLとCSSとJSです。あとは、あまりできないです。<br>
-                    でも、BashでOSを書くプログラムなどは、作りました。
-                </p>
-                <img src="./profile.webp" alt="My Character" width="100px" class="right">
-            </div>
-        </div>
-        <div class="hero bg-pink" id="works">
-            <p class="herotitle">Works</p><br>
-            <div class="position-re display-in">
-                <div class="card bg-white">
-                    <video src="./screen.mov" muted autoplay class="fit-content">Videoが見れていない可能性があります。</video>
-                    <p class="jpn border-bottom">カイル君</p>
-                </div>
-                <div class="mask bg-blue text-white fit-content">
-                    <p class="text left-15">Dolphin</p>
-                    <p class="thin left-10">Dolphinは、カイル君という昔のMicrosoftのキャラクターを、
-                        HTML5で再コーディングし、蘇らせたものです。<br>
-                        Electronバージョンもあるため、デスクトップにも簡単に置けます。<br>
-                        あなたもデスクトップに置いてみては、いかがですか？<br>
-                        <a href="#?" class="link text-white">デモへ</a><br>
-                    </p>
-                </div>
-                <div class="position-re display-in">
-                    <div class="card bg-white" style="width: 40vw; height: 100%;">
-                        <iframe height="300px"
-                            src="https://www.youtube-nocookie.com/embed/UmZQWPcwjuE?controls=0&amp;start=470&autoplay=1&mute=1&vq=highres"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen class="fit-content"></iframe>
-                        <p class="jpn border-bottom">Factory</p>
-                    </div>
-                    <div class="mask bg-blue text-white" style="width: auto; height: auto; transform: translateY(0%);">
-                        <p class="text left-15">Factory</p>
-                        <p class="thin left-10">Factoryは、UbuntuベースのLinuxディストリビューションを簡単に作るためのビルドツールです。<br>
-                            Bashで書かれているため、他のプログラミング言語に移植しやすいです。<br>
-                            さらに今後は、他のディストリビューションをベースとすることができるFactoryも開発しようと思っています。<br>
-                            DistroMakerという派生プロジェクトがあります。DistroMakerは、さらに簡単に作成することを目的としたプロジェクトです。<br>
-                            これは、まだ開発がされていません。<br>
-                            でも、DistroMakerというリポジトリーがあるので、もしよければ見てください。
-                        </p>
-                    </div>
-                </div>
-                <div class="position-re display-in">
-                    <div class="card bg-white" style="width: 40vw; height: 100%;">
-                        <iframe height="300px"
-                            src="https://www.youtube-nocookie.com/embed/UmZQWPcwjuE?controls=0&amp;start=113&autoplay=1&mute=1&vq=highres"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen class="fit-content"></iframe>
-                        <p class="jpn border-bottom">未読スルー</p>
-                    </div>
-                    <div class="mask bg-blue text-white" style="width: auto; height: auto; transform: translateY(0%);">
-                        <p class="text left-15">Midoku Through</p>
-                        <p class="thin left-10">未読スルーは、学びポケットと呼ばれるアプリケーションのバグ、を簡易的に修正するものです。<br>
-                            学びポケットにさらに良い体験を学校でつくるために作られました。<br>コードは、安心と安全と信頼のJavaScriptで書かれています。<br>
-                            しっかりとコードが書かれているため、拡張機能をインストールするだけで使い始められます。<br>
-                            ですが、2つの拡張機能をインストールしないとまともに使えない仕様となっております。<br>
-                            これは、今書き直したら、なんとかできそうですが、今学校で使っていないので、書き直しません。<br>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <div id="smenu">
-                <ul class="slist">
-                    <li class=""><a href="#"><img src="./icons/home.svg" class="smsvg">Home</a></li>
-                    <li class=""><a href="#works"><img src="./icons/works.svg" class="smsvg">Works</a></li>
-                    <li class=""><a href="#about"><img src="./icons/about.svg" class="smsvg">About</a></li>
-                    <li class=""><a href="javascript:note()"><img src="./icons/note.svg" class="smsvg">Note</a></li>
-                    <li class=""><a href="javascript:youtube()"><img src="./icons/youtube.svg" class="smsvg">Youtube</a>
-                    </li>
-                    <li class=""><a href="javascript:blog()"><img src="./icons/blog.svg" class="smsvg">Blog</a></li>
-                    <li class=""><a href="javascript:github()"><img src="./icons/github.svg" class="smsvg">Github</a>
-                    </li>
-                </ul>
-            </div>
     </main>
     <a href="#" class="burger">
         <div class="bar bun-top"></div>
@@ -147,18 +52,7 @@
         </span>
         <p class="stextlogo">SASAKEN</p>
     </div>
-
-    <div id="load">
-        <img src="./profile.webp" alt="" class="loadlogo">
-        <div>
-            <h1>ようこそササケンへ！</h1>
-        </div>
-    </div>
-    <div id="loadsc">
-        <p>LOADING...</p>
-        <div class="progress" id="progress"></div>
-    </div>
-    <script src="script.js"></script>
+    <script src="burger.js"></script>
     <script src="load.js"></script>
 </body>
 

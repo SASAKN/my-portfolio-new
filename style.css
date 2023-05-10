@@ -1,3 +1,10 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+li{
+    list-style: none;
+}
 .burger {
     bottom: 50px;
     height: 80px;
@@ -84,4 +91,8 @@
     background: #d7b48a;
     border-radius: 20px;
     transform: translate3d(0, 65px, 0) scaleY(1.5);
+}
+ul li a{
+text-decoration: none !important;
+color: black !important;
 }
