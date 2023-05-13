@@ -94,5 +94,26 @@ li{
 }
 ul li a{
 text-decoration: none !important;
-color: black !important;
+color: rgb(255, 255, 255) !important;
+}
+body{
+    background-color: #62c852;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #5260c8;
+}
+ul .listpc{
+    display: inline-block;
+    width: 9%;
+}
+ul{
+    padding-top: 2em;
+    text-align: right;
+    padding-right: 2em;
 }
