@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 *{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -12,9 +13,6 @@ li{
     position: fixed;
     right: 50px;
     width: 75px;
-}
-.h-top{
-    padding-top: 10vh;
 }
 #burger{
     display: none;
@@ -37,6 +35,11 @@ li{
     width: 100vw;
     height: 100vh;
     transition: all 0.5s ease-in-out;
+}
+.content{
+    text-align: center;
+    padding-top: 10%;
+    font-family: Noto Sans JP;
 }
 #menu{
     background: black;
@@ -241,4 +244,7 @@ ul{
     padding-top: 2em;
     text-align: right;
     padding-right: 2em;
+}
+.h-top{
+    padding-top: 10vh;
 }
