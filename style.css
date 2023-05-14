@@ -18,16 +18,98 @@ li{
 }
 #menu{
     background: black;
+    animation: bg 29s ease-in-out infinite;
     top: 0;
     left: 0;
     width: 100%;
     position: fixed;
     height: 100vh;
     transition: all 0.5s ease-in-out;
-    transform: translateX(-100%);
+    transform: translateX(-200%);
 }
 #burger:checked ~ #menu{
     transform: translateZ(0px);
+}
+@keyframes bg {
+    0% {
+        background-color: #dc3434;
+    }
+
+    5% {
+        background-color: rgb(255, 115, 0);
+    }
+
+    10% {
+        background-color: #faf200;
+    }
+
+    15% {
+        background-color: #77d71d;
+    }
+
+    20% {
+        background-color: #3498db;
+    }
+
+    25% {
+        background-color: #9b59b6;
+    }
+
+    30% {
+        background-color: #e73c3c;
+    }
+
+    35% {
+        background-color: #3498db;
+    }
+
+    40% {
+        background-color: #f1c40f;
+    }
+
+    50% {
+        background-color: rgb(10, 248, 113);
+    }
+
+    55% {
+        background-color: rgb(10, 216, 248);
+    }
+
+    60% {
+        background-color: rgb(10, 141, 248);
+    }
+
+    65% {
+        background-color: rgb(10, 10, 248);
+    }
+
+    70% {
+        background-color: rgb(189, 10, 248);
+    }
+
+    75% {
+        background-color: rgb(248, 10, 121);
+    }
+
+    80% {
+        background-color: rgb(248, 10, 10);
+    }
+
+    85% {
+        background-color: rgb(14, 140, 243);
+    }
+
+    90% {
+        background-color: rgb(0, 255, 153);
+    }
+
+    95% {
+        background-color: rgb(14, 140, 243);
+    }
+
+    100% {
+        background-color: rgb(0, 0, 0);
+    }
 }
 .bar {
     background: #848383;
