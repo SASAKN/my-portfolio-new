@@ -14,8 +14,7 @@ li{
     width: 75px;
 }
 .h-top{
-    position: absolute;
-    top: 9%;
+    padding-top: 10vh;
 }
 #burger{
     display: none;
