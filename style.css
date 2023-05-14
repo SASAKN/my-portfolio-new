@@ -6,13 +6,29 @@ li{
     list-style: none;
 }
 .burger {
+    z-index: 9999;
     bottom: 50px;
     height: 80px;
     position: fixed;
     right: 50px;
     width: 75px;
 }
-
+#burger{
+    display: none;
+}
+#menu{
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-100%);
+}
+#burger:checked ~ #menu{
+    transform: translateZ(0px);
+}
 .bar {
     background: #848383;
     height: 10px;
