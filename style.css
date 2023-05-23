@@ -19,16 +19,36 @@ body{
     background-color: rgba(245, 245, 245, 0.261);
     backdrop-filter: blur(20px);
 }
-.hero{
-    width: 100vw;
-    height: 100vh;
-    background: #62c852;
-}
 #pmenu ul li{
     display: inline-block;
     width: 10vw;
     margin-right: 3vw;
     margin-top: 3vh;
+}
+/* Hero */
+.contents{
+    margin-top: 10vh;
+}
+.contents .name{
+    text-align: center;
+    font-size: 3.1415em;
+    animation: 1s slidein forwards ease-in-out;
+    letter-spacing: 0.3em;
+    font-family: Noto Sans JP;
+}
+@keyframes slidein{
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background: #62c852;
 }
 /* メニュー */
 li{
