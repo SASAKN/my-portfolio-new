@@ -4,6 +4,25 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+body{
+    background-color: #3498db;
+}
+/* グローバルナビゲーション */
+#pmenu{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.471);
+    backdrop-filter: blur(20px);
+}
+#pmenu ul li{
+    display: inline-block;
+    width: 10vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+}
 /* メニュー */
 li{
     list-style: none;
