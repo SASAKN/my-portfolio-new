@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+/* 初期化 */
 *{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+/* メニュー */
 li{
     list-style: none;
 }
@@ -11,6 +13,7 @@ li{
     bottom: 50px;
     height: 80px;
     position: fixed;
+    z-index: 9999;
     right: 50px;
     width: 75px;
 }
@@ -29,40 +32,6 @@ li{
 .sitem{
     margin-top: 40px;
 }
-.font-josefin{
-    font-family: Josefin Sans;
-}
-.h-title{
-    font-size: 4em;
-}
-.link {
-background-color: white;
-padding-left: 50px;
-border: 5px solid #3d362a;
-border-radius: 5px;
-display: inline-block;
-width: 700px;
-position: relative;
-cursor: pointer;
-}
-.l-link{
-    color: #006eff;
-    position: absolute;
-    top: 0;
-    left: 10px;
-}
-.hero{
-    background-color: #ffffff;
-    font-family: Josefin Sans, roboto;
-    width: 100vw;
-    height: 100vh;
-    transition: all 0.5s ease-in-out;
-}
-.content{
-    text-align: center;
-    padding-top: 10%;
-    font-family: Noto Sans JP;
-}
 #menu{
     background: black;
     animation: bg 29s ease-in-out infinite;
@@ -70,6 +39,7 @@ cursor: pointer;
     font-family: Josefin Sans, roboto;
     left: 0;
     width: 100%;
+    z-index: 9998;
     position: fixed;
     height: 100vh;
     transition: all 0.5s ease-in-out;
@@ -238,35 +208,7 @@ cursor: pointer;
     border-radius: 20px;
     transform: translate3d(0, 65px, 0) scaleY(1.5);
 }
-ul li a{
-text-decoration: none !important;
-color: rgb(255, 255, 255) !important;
-}
-body{
-    background-color: #62c852;
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-}
-nav{
-    width: 100vw;
-    height: 10vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #5260c83e;
-    backdrop-filter: blur(10px);
-}
-ul .listpc{
-    display: inline-block;
-    width: 9%;
-}
-ul{
-    padding-top: 2em;
-    text-align: right;
-    padding-right: 2em;
-}
-.h-top{
-    padding-top: 10vh;
+#menu ul li a{
+    text-decoration: none !important;
+    color: white !important;
 }
