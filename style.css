@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 /* 初期化 */
+
 *{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -8,6 +9,7 @@ body{
     background-color: #3498db;
 }
 /* グローバルナビゲーション */
+
 #pmenu{
     position: fixed;
     top: 0;
@@ -26,6 +28,7 @@ body{
     margin-top: 3vh;
 }
 /* Hero */
+
 .contents{
     margin-top: 10vh;
 }
@@ -35,6 +38,12 @@ body{
     animation: 1s slidein forwards ease-in-out;
     letter-spacing: 0.3em;
     font-family: Noto Sans JP;
+}
+.contents .quote{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    font-family: Josefin Sans;
 }
 @keyframes slidein{
     0%{
@@ -51,6 +60,7 @@ body{
     background: #62c852;
 }
 /* メニュー */
+
 li{
     list-style: none;
 }
