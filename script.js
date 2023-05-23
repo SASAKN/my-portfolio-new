@@ -26,35 +26,3 @@ document.querySelector('.burger').addEventListener('click', function (e) {
             break;
     }
 });
-function note(){
-    setTimeout(function(){
-        location.href ='https://note.com/sasaken_23';
-    },3000);
-    showloadscreen();
-}
-function youtube(){
-    setTimeout(function(){
-        location.href ='https://youtube.com/@sasaken23';
-    },3000);
-    showloadscreen();
-}
-function blog(){
-    setTimeout(function(){
-        location.href ='https://kenkensasaken.blogspot.com';
-    },3000);
-    showloadscreen();
-}
-function github(){
-    setTimeout(function(){
-        location.href ='https://github.com/SASAKN/';
-    },3000);
-    showloadscreen();
-}
-function showloadscreen(){
-    const loadsc = document.getElementById('loadsc');
-    loadsc.classList.add('loadbegin');
-    const loadp = document.querySelectorAll('#loadsc p')[0];
-    loadp.classList.add('beginp');
-    const progress = document.getElementById('progress');
-    progress.classList.add('probegin');
-}
