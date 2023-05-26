@@ -5,3 +5,4 @@ document.querySelector('.burger').addEventListener('click', function (e) {
 });
 
 //スクロールアクションの設定
+const targetElem = document.querySelector('.targetElem');
