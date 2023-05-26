@@ -4,6 +4,7 @@
 *{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #3498db;
@@ -16,10 +17,12 @@ body{
     transition: all 1s ease-in-out;
     z-index: 9997;
     width: 100vw;
+    font-family: Josefin Sans;
+    font-size: 1.5em;
     height: 10vh;
     text-align: right;
-    background-color: rgba(245, 245, 245, 0.261);
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.261);
+    backdrop-filter: blur(10px);
 }
 #pmenu ul li{
     display: inline-block;
@@ -279,11 +282,11 @@ li{
 }
 #menu ul li a{
     text-decoration: none !important;
-    color: white !important;
+    color: white;
 }
 #pmenu ul li a{
     text-decoration: none !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(152, 255, 198);
 }
 /* 上に戻る */
 .back-top{
