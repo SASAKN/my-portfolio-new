@@ -5,4 +5,18 @@ document.querySelector('.burger').addEventListener('click', function (e) {
 });
 
 //スクロールアクションの設定
-const targetElem = document.querySelector('.targetElem');
+const options = {
+    rootMargin: '-50px 0px'
+}
+const intersection = (entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        } else {
+            entry.target.classList.remove('active');
+        }
+    });
+}
+const observer = new IntersectionObserver(intersection, options);
+const target = document.querySelector('.target');
+observer.observe(target);
