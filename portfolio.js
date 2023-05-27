@@ -5,18 +5,21 @@ document.querySelector('.burger').addEventListener('click', function (e) {
 });
 
 //スクロールアクションの設定
-const options = {
-    rootMargin: '-50px 0px'
-}
-const intersection = (entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('active');
-        } else {
-            entry.target.classList.remove('active');
-        }
-    });
-}
-const observer = new IntersectionObserver(intersection, options);
-const target = document.querySelector('.target');
-observer.observe(target);
+const header = document.querySelector('#top'),
+		totop = document.getElementById('.back-top'),
+		options = {
+			root : null,
+			rootMargin : "0px 0px 0px 0px",
+			threshold: 1.0
+		};
+
+const observer = new IntersectionObserver((entries) => {
+	for(const e of entries) {
+		if(e.isIntersecting) {
+			totop.classList.remove('active-bt');
+		} else{
+			totop.classList.add('active-bt');
+		}
+	}
+}, options);
+observer.observe(header);

@@ -289,8 +289,10 @@ li{
     color: rgb(152, 255, 198);
 }
 /* 上に戻る */
+
 .back-top{
     left: 20px;
+    opacity: 0;
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -299,7 +301,11 @@ li{
     bottom: 60px;
     background-color: #3498db;
 }
+
 .back-top img{
     padding-top: 25%;
     width: 50px;
+}
+.active-bt{
+opacity: 1;
 }
