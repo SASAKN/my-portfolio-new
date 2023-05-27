@@ -5,21 +5,14 @@ document.querySelector('.burger').addEventListener('click', function (e) {
 });
 
 //スクロールアクションの設定
-const header = document.querySelector('#top'),
-		totop = document.getElementById('.back-top'),
-		options = {
-			root : null,
-			rootMargin : "0px 0px 0px 0px",
-			threshold: 1.0
-		};
-
-const observer = new IntersectionObserver((entries) => {
-	for(const e of entries) {
-		if(e.isIntersecting) {
-			totop.classList.remove('active-bt');
-		} else{
-			totop.classList.add('active-bt');
-		}
+window.addEventListener("scroll", function () {
+	const elm = document.getElementById("back-btn");
+	const scroll = window.pageYOffset;
+	if (scroll > 200) {
+		elm.classList.remove('notactive-bt');
+		elm.classList.add('active-bt');
+	} else {
+		elm.classList.add('notactive-bt');
+		elm.classList.remove('active-bt');
 	}
-}, options);
-observer.observe(header);
+  });
