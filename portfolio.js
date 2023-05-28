@@ -20,7 +20,7 @@ window.addEventListener("scroll", function () {
 const options = {
     rootMargin: '-50px',
 }
-const hidden = document.querySelectorAll('.link');
+const hidden = document.querySelectorAll('.link ');
 
 const observer = new IntersectionObserver(startanim);
 hidden.forEach(hidden =>{
@@ -38,7 +38,7 @@ function startanim(entries){
 const options2 = {
     rootMargin: '-50px',
 }
-const hidden2 = document.querySelectorAll('.title');
+const hidden2 = document.querySelectorAll('.title ');
 
 const observer2 = new IntersectionObserver(startanim2);
 hidden2.forEach(hidden2 =>{
