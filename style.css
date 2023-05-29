@@ -328,11 +328,25 @@ transform: translateY(-20%);
     letter-spacing: 0.1em;
     font-family: Noto Sans JP;
 }
+.content-left a{
+    text-decoration: none;
+    text-align: center;
+}
+.content-left a:visited{
+    text-decoration: none;
+    color: white;
+}
 .link{
     text-decoration: none;
     color: white;
+    width: 500px;
     font-size: 2em;
     margin-top: 30px;
+    background-color: #000000;
+    padding-top: 50px;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
     font-family: Josefin Sans;
 }
 .link :visited{
