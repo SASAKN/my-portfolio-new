@@ -339,8 +339,9 @@ transform: translateY(-20%);
 .link{
     text-decoration: none;
     color: white;
-    width: 500px;
+    width: 400px;
     font-size: 2em;
+    margin-left: 20%;
     margin-top: 30px;
     background-color: #000000;
     padding-top: 50px;
