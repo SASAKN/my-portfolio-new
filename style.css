@@ -31,25 +31,7 @@ body{
     margin-right: 3vw;
     margin-top: 3vh;
 }
-/* Hero */
 
-.contents{
-    margin-top: 10vh;
-}
-.contents .name{
-    text-align: center;
-    font-size: 3.1415em;
-    animation: 2s slidein-from-left forwards ease-in-out;
-    letter-spacing: 0.3em;
-    font-family: Noto Sans JP;
-}
-.contents .quote{
-    text-align: center;
-    font-size: 2em;
-    margin-top: 30px;
-    font-family: Josefin Sans;
-    animation: 2s slidein-from-under forwards ease-in-out;
-}
 @keyframes slidein-from-under{
 0%{
     opacity: 0;
@@ -69,11 +51,6 @@ body{
         opacity: 1;
         transform: translateX(0px);
     }
-}
-.hero{
-    width: 100vw;
-    height: 100vh;
-    background: #62c852;
 }
 /* メニュー */
 
@@ -317,43 +294,7 @@ transform: translateY(-20%);
     transition: all 1s;
     transform: translateY(20%);
 }
-/* Contents2 */
-.content-left .title{
-    text-align: left;
-    margin-left: 50px;
-    display: inline-block;
-    width: 80%;
-    border-bottom: solid #ffea00;
-    font-size: 3.1415em;
-    letter-spacing: 0.1em;
-    font-family: Noto Sans JP;
-}
-.content-left a{
-    text-decoration: none;
-    text-align: center;
-}
-.content-left a:visited{
-    text-decoration: none;
-    color: white;
-}
-.link{
-    text-decoration: none;
-    color: white;
-    width: 400px;
-    font-size: 2em;
-    margin-left: 20%;
-    margin-top: 30px;
-    background-color: #000000;
-    padding-top: 50px;
-    border-radius: 20px;
-    width: 500px;
-    height: 100px;
-    font-family: Josefin Sans;
-}
-.link :visited{
-    color: white;
-    text-decoration: none;
-}
+
 /* Observer用 */
 
 .under-active{
