@@ -9,6 +9,23 @@
 body{
     background-color: #3498db;
 }
+/* Hero */
+.hero{
+    width: 100vw;
+    height: 100vh;
+}
+.bg-green{
+    background-color: #92ffaa;
+}
+.name{
+    font-family: Noto Sans JP;
+    font-size: 4em;
+    letter-spacing: 0.15em;
+    padding-top: 30vh;
+}
+.center{
+    text-align: center;
+}
 /* グローバルナビゲーション */
 
 #pmenu{
