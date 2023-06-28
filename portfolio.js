@@ -51,3 +51,20 @@ function startanim2(entries){
 		}
 	});
 }
+//右からのアニメーション
+const options3 = {
+    rootMargin: '-50px',
+}
+const hidden3 = document.querySelectorAll('.right-animation');
+
+const observer3 = new IntersectionObserver(startanim3);
+hidden3.forEach(hidden3 =>{
+	observer3.observe(hidden3);
+});
+function startanim3(entries){
+	entries.forEach(entry => {
+		if(entry.isIntersecting){
+			entry.target.classList.add('right-active');
+		}
+	});
+}

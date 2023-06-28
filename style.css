@@ -24,6 +24,29 @@ body{
     padding-left: 5vw;
     border-bottom: solid white;
 }
+.profile-icon{
+    width: 100px;
+    height: auto;
+    padding-left: 20vw;
+    padding-top: 15vh;
+    float: left;
+}
+.text{
+    padding-left: 2vw;
+    font-family: Noto Sans JP;
+    font-size:2em;
+    width: 100vw;
+    height: auto;
+    margin-top: 2vh;
+    background-color: #00dc8f;
+}
+.sub{
+    font-family: Noto Sans JP;
+    font-size: 1em;
+}
+.bg-yellow{
+    background-color: rgb(77, 223, 209);
+}
 .bg-green{
     background-color: #92ffaa;
 }
@@ -123,6 +146,16 @@ body{
     0%{
         opacity: 0;
         transform: translateX(-10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slidein-from-left{
+    0%{
+        opacity: 0;
+        transform: translateX(130%);
     }
     100%{
         opacity: 1;
@@ -378,5 +411,8 @@ transform: translateY(-20%);
     animation: 2s slidein-from-under forwards ease-in-out;
 }
 .left-active{
+    animation: 2s slidein-from-left forwards ease-in-out;
+}
+.right-active{
     animation: 2s slidein-from-left forwards ease-in-out;
 }
