@@ -50,6 +50,22 @@ body{
 .bg-green{
     background-color: #92ffaa;
 }
+.bg-work{
+    background-color: #ffffff;
+    color: #39352d !important;
+}
+.bg-work .title{
+    color: #39352d !important;
+    border-color: #39352d;
+}
+.hero a{
+    color: white;
+    text-decoration: none;
+}
+.hero a:visited{
+    color: white;
+    text-decoration: none;
+}
 .icons{
     padding-top: 30px;
     
@@ -152,10 +168,10 @@ body{
         transform: translateX(0px);
     }
 }
-@keyframes slidein-from-left{
+@keyframes slidein-from-right{
     0%{
         opacity: 0;
-        transform: translateX(130%);
+        transform: translateX(30%);
     }
     100%{
         opacity: 1;
@@ -414,5 +430,5 @@ transform: translateY(-20%);
     animation: 2s slidein-from-left forwards ease-in-out;
 }
 .right-active{
-    animation: 2s slidein-from-left forwards ease-in-out;
+    animation: 2s slidein-from-right forwards ease-in-out;
 }

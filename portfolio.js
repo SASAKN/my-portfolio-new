@@ -36,7 +36,7 @@ function startanim(entries){
 
 //左からのアニメーション
 const options2 = {
-    rootMargin: '-50px',
+    rootMargin: '-10px',
 }
 const hidden2 = document.querySelectorAll('.left-animation');
 
@@ -53,7 +53,7 @@ function startanim2(entries){
 }
 //右からのアニメーション
 const options3 = {
-    rootMargin: '-50px',
+    rootMargin: '-10px',
 }
 const hidden3 = document.querySelectorAll('.right-animation');
 
