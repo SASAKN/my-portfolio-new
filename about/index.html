@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASAKEN</title>
+    <link rel="canonical" href="https://sasaken.nksteam.com">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/responsive.css" media="screen and (max-width: 1000px)">
+    <meta name="description" content="Sasaken Portfolio ササケンは、ただの中学2年生です。ブログやYoutubeなどの幅広いネット活動を行っています。">
+    <meta name="keywords" content="Sasaken Portfolio ササケン Program Programer Note">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Josefin+Sans:wght@500&display=swap"
+        rel="stylesheet">
+        <script src="about.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="pmenu">
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a href="./about">About</a></li>
+                <li><a href="./works">Works</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero bg-work wrapper" id="top">
+            <p class="name under-animation center">Who is SASAKEN ?</p>
+            <p class="sub right-animation center">SASAKENは、どんな人？</p>
+            <section class="under">
+                <p class="title left-animation">About SASAKEN !</p>
+                <p class="text under-animation">
+                    SASAKENは、ごく普通の中学2年生です。<br>
+                    プログラミングと英語が大好きです。<br>
+                    趣味で、Linuxディストリビューションを作ったりしています。<br>
+                    ゼロからOSを作ることを夏休みに計画しています。<br>
+                    カーネルの設計思想は、マイクロカーネルが好き。<br>
+                    英検3級持ってます。<br>
+                    この前、未踏ジュニア不採択でした。<br>
+                    それじゃぁSASAKENのプロフィールいくよぉー。<br>
+                </p>
+            </section>
+        </div>
+        <section class="over"></section>
+        <div class="rectangle"></div>
+        <div class="hero bg-work wrapper" id="hero2">
+            <section class="under">
+                <p class="title left-animation">About SASAKEN !</p>
+                <p class="text under-animation">
+                    SASAKENは、ごく普通の中学2年生です。<br>
+                    プログラミングと英語が大好きです。<br>
+                    趣味で、Linuxディストリビューションを作ったりしています。<br>
+                    ゼロからOSを作ることを夏休みに計画しています。<br>
+                    カーネルの設計思想は、マイクロカーネルが好き。<br>
+                    それじゃぁSASAKENのプロフィールいくよぉー。
+                </p>
+            </section>
+        </div>
+        <section class="over"></section>
+    </main>
+    <!--メニュー-->
+    <input type="checkbox" id="burger">
+    <label for="burger">
+        <div class="burger">
+            <div class="bar bun-top"></div>
+            <div class="bar lettuce"></div>
+            <div class="bar mustard"></div>
+            <div class="bar ketchup"></div>
+            <div class="bar patty"></div>
+            <div class="bar bun-bot"></div>
+        </div>
+    </label>
+    <div id="menu">
+        <ul class="slist">
+            <li class=""><a href="#"><img src="./icons/home.svg" class="smsvg">Home</a></li>
+            <li class="sitem"><a href="#works"><img src="./icons/works.svg" class="smsvg">Works</a></li>
+            <li class="sitem"><a href="#about"><img src="./icons/about.svg" class="smsvg">About</a></li>
+            <li class="sitem"><a href="javascript:note()"><img src="./icons/note.svg" class="smsvg">Note</a></li>
+            <li class="sitem"><a href="javascript:youtube()"><img src="./icons/youtube.svg" class="smsvg">Youtube</a>
+            </li>
+            <li class="sitem"><a href="javascript:blog()"><img src="./icons/blog.svg" class="smsvg">Blog</a></li>
+            <li class="sitem"><a href="javascript:github()"><img src="./icons/github.svg" class="smsvg">Github</a></li>
+        </ul>
+    </div>
+    <!--上に戻る-->
+    <a href="#top">
+        <div class="back-top" id="back-btn">
+            <img src="./icons/backtop.svg" alt="">
+        </div>
+    </a>
+    <script src="../portfolio.js"></script>
+</body>
+
+</html>

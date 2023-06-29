@@ -7,12 +7,24 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: #3498db;
+    background-color: #ffffff;
 }
 /* Hero */
 .hero{
     width: 100vw;
     height: 100vh;
+}
+.wrapper{
+    height: 300vh;
+}
+.under{
+    top: 0;
+    margin-top: 60vh;
+    position: sticky;
+}
+.over{
+    margin-top: -100vh;
+    position: relative;
 }
 .title{
     font-family: Noto Sans JP;
@@ -23,6 +35,9 @@ body{
     padding-top: 5vh;
     padding-left: 5vw;
     border-bottom: solid white;
+}
+#hero2{
+    margin-top: 200vh;
 }
 .profile-icon{
     width: 100px;
@@ -38,7 +53,6 @@ body{
     width: 100vw;
     height: auto;
     margin-top: 2vh;
-    background-color: #00dc8f;
 }
 .sub{
     font-family: Noto Sans JP;
@@ -52,6 +66,9 @@ body{
 }
 .bg-work{
     background-color: #ffffff;
+    color: #39352d !important;
+}
+.bg-work .name{
     color: #39352d !important;
 }
 .bg-work .title{

@@ -1,0 +1,20 @@
+.rectangle{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(100, 100, 100);
+    animation: hero 2s infinite ease-in-out,bg 30s infinite ease-in-out;
+    margin-top: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes hero{
+    0%{
+        transform:skewX(100deg);
+    }
+    50%{
+        transform:skewX(360deg);
+    }
+    100%{
+        transform:skewX(100deg);
+    }
+}
