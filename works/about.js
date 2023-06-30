@@ -27,6 +27,3 @@ function startanim4(entries){
 		}
 	});
 }
-document.getElementById('factory').addEventListener('mouseover', function(){
-	document.getElementById('d-f').classList.add('d-f-a')
-});
