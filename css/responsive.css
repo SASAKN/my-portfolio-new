@@ -10,6 +10,9 @@
 .icon{
     margin-bottom: 2vh;
 }
+.rectangle{
+    display: none;
+}
 .text{
     font-size: clamp(1em,2em,3em);
 }
