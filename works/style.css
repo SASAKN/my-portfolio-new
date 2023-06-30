@@ -1,0 +1,26 @@
+.products{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction:row
+}
+.product{
+    width: 49vw;
+    background: white;
+    color: rgb(57,57,57);
+    border: solid 2px #00b3ff;
+}
+.product a{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 50vh;
+}
+.product .description{
+    font-family: Noto Sans JP;
+    font-size: 1.5em;
+    display: none;
+}
+.product img{
+    max-width: 48vw;
+    max-width: 50vh;
+}
