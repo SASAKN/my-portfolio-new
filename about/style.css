@@ -7,6 +7,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+.big{
+    font-size: 4em;
+    font-family: Noto Sans JP;
+}
+.big-active{
+    animation: weakpoint 700ms forwards ease-in-out;
+}
+@keyframes weakpoint{
+    0%{
+        transform: scale(180);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 @keyframes hero{
     0%{
         transform:skewX(100deg);

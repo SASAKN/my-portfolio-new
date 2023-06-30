@@ -10,3 +10,20 @@ window.addEventListener("scroll", function () {
 		elm.classList.remove('active-top');
 	}
   });
+  //右からのアニメーション
+const options4 = {
+    rootMargin: '-5px',
+}
+const hidden4 = document.querySelectorAll('.big');
+
+const observer4 = new IntersectionObserver(startanim4);
+hidden4.forEach(hidden4 =>{
+	observer4.observe(hidden4);
+});
+function startanim4(entries){
+	entries.forEach(entry => {
+		if(entry.isIntersecting){
+			entry.target.classList.add('big-active');
+		}
+	});
+}
