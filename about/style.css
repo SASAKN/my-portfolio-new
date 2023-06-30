@@ -8,18 +8,20 @@
     margin-right: auto;
 }
 .big{
+    display: inline-block;
     font-size: 4em;
     font-family: Noto Sans JP;
 }
 .big-active{
+    display: inline-block;
     animation: weakpoint 700ms forwards ease-in-out;
 }
 @keyframes weakpoint{
     0%{
-        transform: scale(180);
+        transform: skewX(200deg);
     }
     100%{
-        transform: scale(1);
+        transform: skewX(0deg);
     }
 }
 @keyframes hero{
