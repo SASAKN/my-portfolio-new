@@ -20,6 +20,11 @@
     font-size: 1.5em;
     display: none;
 }
+.d-f-a{
+    display: block !important;
+    transition: all 1s ease-in-out;
+    opacity: 1;
+}
 .product img{
     max-width: 48vw;
     max-width: 50vh;
