@@ -27,3 +27,12 @@ function startanim4(entries){
 		}
 	});
 }
+var cards = document.querySelectorAll('.card');
+var infos = document.querySelectorAll('.info');
+cards.forEach(function(cards){
+	cards.addEventListener('mouseover', function(){
+		infos.forEach(function(info){
+			
+		});
+	});
+});
