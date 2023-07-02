@@ -11,18 +11,9 @@
     position: relative;
     background: white;
     color: rgb(57,57,57);
+    margin-bottom: 20px;
+    border-radius: 30px;
     border: solid 2px #00b3ff;
-}
-.card{
-    background: white;
-}
-.info{
-    position: absolute;
-    top: 0;
-    background-color: #00b3ff;
-    width: 100%;
-    opacity: 0;
-    height: 100%;
 }
 .product a{
     position: absolute;
@@ -37,6 +28,6 @@
     max-width: 48vw;
     max-width: 50vh;
 }
-.hero .bg-dark{
+.hero:nth-child(2){
     height: 200vh;
 }
