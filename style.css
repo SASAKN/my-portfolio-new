@@ -61,6 +61,9 @@ body{
 .bg-yellow{
     background-color: rgb(77, 223, 209);
 }
+.bg-zenn{
+    background-color: #4aaeff;
+}
 .bg-green{
     background-color: #92ffaa;
 }
@@ -127,7 +130,7 @@ body{
 .bg-red{
     background-color: #ff3333;
 }
-.icons img {
+.icons img, i {
     display: inline-block;
     padding-top: 25%;
     width: 50px;
