@@ -1,0 +1,23 @@
+.product-name{
+    display: inline-block;
+    font-family: Noto Sans JP;
+    font-size: 3em;
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 0;
+    right: 20vw;
+    border-bottom: solid;
+}
+.hero img{
+    margin-top: 10vh;
+}
+.default{
+    /* text-align: center; */
+    position: relative;
+    width: 100vw;
+}
+.default img{
+    text-align: left;
+    max-width: 90vw;
+    max-height: 80vh;
+}
