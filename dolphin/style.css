@@ -12,20 +12,42 @@
 }
 .product-img{
     display: block;
+    z-index: 1;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 .cover{
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
+    top: 0;
+    z-index: 2;
     position: absolute;
-    z-index: 9991;
     text-align: center;
     background-color: rgba(68, 68, 68, 0.586);
+}
+.product-title{
+    font-family: Noto Sans JP;
+    font-size: 2em;
+    display: inline-block;
+    color: #39352d;
+    letter-spacing: 0.15em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-bottom: solid #39352d;
 }
 @media screen and (max-width: 1000px){
     .hero img{
         margin: 0 0 0 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .cover{
+        height: 150vw;
+    }
+    #text{
+        margin-top: 20vh;
     }
 }
 .product-text{
