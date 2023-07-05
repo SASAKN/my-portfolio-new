@@ -26,14 +26,3 @@
         transform: skewX(0deg);
     }
 }
-@keyframes hero{
-    0%{
-        transform:skewX(100deg);
-    }
-    50%{
-        transform:skewX(360deg);
-    }
-    100%{
-        transform:skewX(100deg);
-    }
-}
