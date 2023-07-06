@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
 const options4 = {
     rootMargin: '-5px',
 }
-const hidden4 = document.querySelectorAll('.big');
+const hidden4 = document.querySelectorAll('.b');
 
 const observer4 = new IntersectionObserver(startanim4);
 hidden4.forEach(hidden4 =>{
@@ -23,7 +23,7 @@ hidden4.forEach(hidden4 =>{
 function startanim4(entries){
 	entries.forEach(entry => {
 		if(entry.isIntersecting){
-			entry.target.classList.add('big-active');
+			entry.target.classList.add('b-active');
 		}
 	});
 }

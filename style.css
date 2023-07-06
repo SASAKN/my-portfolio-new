@@ -455,18 +455,12 @@ transform: translateY(-20%);
 .right-active{
     animation: 2s slidein-from-right forwards ease-in-out;
 }
-.big{
+.b{
     display: inline-block;
     font-size: 4em;
     font-family: Noto Sans JP;
 }
-.big1{
-    margin-left: 20vw;
-}
-.big2{
-    margin-left: 30vw;
-}
-.big-active{
+.b-active{
     display: inline-block;
     animation: weakpoint 700ms forwards ease-in-out;
 }
